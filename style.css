@@ -305,3 +305,23 @@ a:hover{
     color: #231E41;
     color: #555;
     color: #999; */
+
+ .modal form{
+     background-color: lightgray;
+     padding: 5px;
+     margin-top: 3px;
+     border-radius: 5px;
+ }
+ .modal form dt{
+    margin-bottom: 4px;
+    font-size: 19px;
+    
+ }
+ .modal form input{
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+ }

@@ -48,13 +48,44 @@
                             <a class="nav-link " href="#Team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <button class="main-btn">+91 9579095930</button>
+                            <button class="main-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</button>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Sign in </h2>
+            </div>
+            <div class="modal-body">
+              <form >
+                <dl>
+                    <dt>User Name</dt>
+                    <dd><input type="text" class="w-100 " placeholder=" user name"></dd>
+                    <dt>Password</dt>
+                    <dd><input type="password" class="w-100" placeholder=" password"></dd>
+                    <dt>Email or phone no</dt>
+                    <dd><input type="email" class="w-100" placeholder=" email or phone"> </dd>
+                </dl>
+              </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal">Cancal</button>
+                <button class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
 
     <section id="home">
         <div class="top-banner">
@@ -119,7 +150,7 @@
                             suscipit atque repudiandae rerum quae ut eveniet blanditiis ullam similique
                             obcaecati quas mollitia sequi eaque ratione deserunt eum vel, neque assumenda.
                         </p>
-                        <button class="main-btn mt-4">Learn More</button>
+                        <button class="main-btn mt-4" data-bs-toggle="modal" data-bs-target="#learnmore">Learn More</button>
                     </div>
                 </div>
                 <div class="row align-items-center food-type">
@@ -144,6 +175,37 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="learnmore" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              
+                
+                    <video src="video.mp4" class="img-fluid" autoplay controls></video>
+                
+                
+                    <h4 class="text-center mt-3 fw-bold">Method</h4>
+                    <div class="d-block justify-content-between ">
+                         <div><p class="fs-5 fw-bold">STEP 1</p>
+                            <p class="text-secondary"> Heat 2 tbsp of the oil in a pan over a medium heat and fry the onion gently for 10-12 mins. Add the garlic and chilli flakes and cook for 1 min. Tip in the tomatoes and sugar and season to taste. Simmer uncovered for 20 mins or until thickened, then stir through the mascarpone.</p>
+                        </div>
+                         <div><p class="fs-5 fw-bold">STEP 2</p>
+                            <p class="text-secondary"> Heat 2 tbsp of the oil in a pan over a medium heat and fry the onion gently for 10-12 mins. Add the garlic and chilli flakes and cook for 1 min. Tip in the tomatoes and sugar and season to taste. Simmer uncovered for 20 mins or until thickened, then stir through the mascarpone.</p>
+                        </div>
+                            
+                    </div>
+                
+             
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
 
     <section id="story">
         <div class="story-section">
@@ -398,12 +460,12 @@
                     <a href="#" class="footer-link">Foll US</a>
 
                     <div class="footer-social pt-4 text-center">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-facebook "></i></a>
+                        <a href="#"><i class="fab fa-twitter text-primary ps-3"></i></a>
+                        <a href="#"><i class="fab fa-instagram text-danger ps-3"></i></a>
+                        <a href="#"><i class="fab fa-linkedin text-primary ps-3"></i></a>
+                        <a href="#"><i class="fab fa-youtube text-danger ps-3"></i></a>
+                        <a href="#"><i class="fab fa-dribbble ps-3"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-12">
